@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "foolvpn.me"; // Ganti dengan domain utama kalian
-const serviceName = "nautica"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = "budakbaong.us"; // Ganti dengan domain utama kalian
+const serviceName = "budakbaong"; // Ganti dengan nama workers kalian
+const apiKey = "4qnddVCFfhkdhYGsM9g9OM1SXcDv69ZWUVP5MNXI"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "5691icy@freesourcecodes.com'o"; // Ganti dengan email yang kalian gunakan
+const accountID = "819719f6e89614d60ab25c25799ff82f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "d8ab545ef5183c9f0302c38f7db34055"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
